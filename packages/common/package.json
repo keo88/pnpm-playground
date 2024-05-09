@@ -1,0 +1,14 @@
+{
+  "name": "@pnpm-playground/common",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.tsx",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "typescript": "^5.2.2"
+  }
+}
