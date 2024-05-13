@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/common-components.js",
-  "types": "./dist/common-components.d.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc && vite build"
   },
