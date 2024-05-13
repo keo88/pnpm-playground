@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "lint:inspect": "eslint --inspect-config"
+    "lint:inspect": "eslint --inspect-config",
+    "prettier": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --write",
+    "prettier:check": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --check"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
   "devDependencies": {
     "@eslint/js": "^9.2.0",
     "eslint": "^9.2.0",
+    "prettier": "^3.2.5",
     "typescript-eslint": "8.0.0-alpha.10"
   }
 }
