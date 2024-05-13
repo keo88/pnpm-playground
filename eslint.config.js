@@ -5,12 +5,13 @@ export default [
   js.configs.recommended,
   ...ts.configs.recommended,
   {
+    name: "overrides",
     rules: {
-      "no-unused-vars": "warn",
       "no-undef": "warn"
     }
   },
   {
+    name: "global-ignores",
     ignores: ["**/dist/"]
   }
 ];
