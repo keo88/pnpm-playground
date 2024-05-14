@@ -6,7 +6,8 @@
   "main": "./dist/common-components.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "echo": "echo 'Common'"
   },
   "dependencies": {
     "react": "^18.2.0"
