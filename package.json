@@ -11,7 +11,8 @@
     "lint:fix": "eslint --fix",
     "lint:inspect": "eslint --inspect-config",
     "prettier": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --write",
-    "prettier:check": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --check"
+    "prettier:check": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --check",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@eslint/js": "^9.2.0",
     "eslint": "^9.2.0",
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "typescript-eslint": "8.0.0-alpha.10"
   }
