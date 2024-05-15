@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "admin": "pnpm -F admin",
     "echo": "echo 'Root'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint",
