@@ -7,13 +7,13 @@
   "scripts": {
     "admin": "pnpm -F admin",
     "echo": "echo 'Root'",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "lint:inspect": "eslint --inspect-config",
     "prettier": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --write",
     "prettier:check": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --check",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "pnpm lint && pnpm prettier:check"
   },
   "keywords": [],
   "author": "",
