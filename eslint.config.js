@@ -27,6 +27,6 @@ export default [
   },
   {
     name: 'global-ignores',
-    ignores: ['**/dist/'],
+    ignores: ['**/dist/', '**/.next/'],
   },
 ];
