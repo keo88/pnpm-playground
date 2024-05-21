@@ -10,7 +10,7 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "lint:inspect": "eslint --inspect-config",
-    "prettier": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --write",
+    "prettier": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --write && pnpm -r prettier",
     "prettier:check": "prettier '{**/*,*}.{js,ts,jsx,tsx}' --check",
     "prepare": "husky",
     "test": "pnpm lint && pnpm prettier:check"
