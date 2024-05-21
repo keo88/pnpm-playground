@@ -9,7 +9,7 @@ function Counter() {
   return (
     <button
       onClick={increment}
-      className='rounded bg-white text-black aspect-square flex flex-col justify-center items-center gap-2 p-2'
+      className='flex aspect-square flex-col items-center justify-center gap-2 rounded bg-white p-2 text-black'
     >
       <span className='text-lg'>Count</span>
       <span className='text-base'>{count}</span>
