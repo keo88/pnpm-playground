@@ -5,7 +5,7 @@ const quicksand = Quicksand({ subsets: ['latin'] });
 
 function Header() {
   return (
-    <header className='flex h-10 items-center justify-between'>
+    <header className='sticky flex h-10 items-center justify-between'>
       <h1 className={twMerge(quicksand.className, 'text-2xl')}>
         <strong className='font-bold'>Syn</strong>
         note
