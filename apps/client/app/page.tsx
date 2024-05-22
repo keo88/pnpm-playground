@@ -25,6 +25,14 @@ export default function Home() {
           <div className='absolute inset-0 flex items-center justify-center text-white'>Front</div>
           <div
             style={{
+              transform: 'translate3d(-50px,0,0) rotateY(45deg)',
+            }}
+            className='absolute inset-0 flex items-center justify-center bg-yellow-100 text-gray-600'
+          >
+            Mid
+          </div>
+          <div
+            style={{
               transform: 'translate3d(0,0,-300px) scale(2.1)',
             }}
             className='flex h-full items-center justify-center bg-fuchsia-200 text-black'
