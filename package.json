@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "admin": "pnpm -F admin",
+    "client": "pnpm -F client",
     "echo": "echo 'Root'",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
