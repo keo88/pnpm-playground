@@ -18,7 +18,6 @@ export default function Home() {
         <div
           style={{
             transformStyle: 'preserve-3d',
-            zIndex: -1,
           }}
           className='relative h-[80vh]'
         >
