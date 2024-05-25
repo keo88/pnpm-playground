@@ -19,7 +19,7 @@ export default function Home() {
           style={{
             transformStyle: 'preserve-3d',
           }}
-          className='relative h-[80vh]'
+          className='relative -z-10 h-[80vh]'
         >
           <div className='absolute inset-0 flex items-center justify-center text-white'>Front</div>
           <div
