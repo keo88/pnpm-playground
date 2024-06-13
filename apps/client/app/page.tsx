@@ -1,10 +1,12 @@
 import Counter from '@/components/common/Counter';
 import Header from '@/components/common/Header';
+import { IosDatePicker } from '@pnpm-playground/common';
 
 export default function Home() {
   return (
     <div className='flex h-screen flex-col'>
       <Header />
+      <IosDatePicker></IosDatePicker>
       <main
         className='flex-1 overflow-y-auto overflow-x-hidden'
         style={{
